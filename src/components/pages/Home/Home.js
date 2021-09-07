@@ -1,7 +1,7 @@
 const Home = () => {
     return ( 
         <div>
-            Principal
+            hola peter
         </div>
      );
 }
