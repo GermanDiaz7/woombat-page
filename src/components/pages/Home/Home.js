@@ -1,8 +1,14 @@
+import { Fragment } from "react";
+
+//COMPONENTS
+import Header from "../../Header";
+
+
 const Home = () => {
     return ( 
-        <div>
-            hola peter
-        </div>
+        <Fragment>
+            <Header />
+        </Fragment>
      );
 }
  
