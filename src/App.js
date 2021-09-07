@@ -1,6 +1,6 @@
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { map } from 'lodash'
 import routes from './routes/routes.config'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
