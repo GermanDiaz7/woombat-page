@@ -1,0 +1,16 @@
+.NavBar-Container {
+    height: 5rem;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar-Container a {
+    color: white;
+    text-decoration: none;
+}
+
+.woombatLg {
+    width: 12%;
+}
