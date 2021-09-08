@@ -1,21 +1,14 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { map } from 'lodash'
-import routes from './routes/routes.config'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './components/pages/Home/Home';
+import Error from './components/pages/Error/Error'
+
 
 function App() {
   return (
     <Router>
       <Switch>
-        {
-          map(routes, (route, index) => (
-            <Route 
-              key={index}
-              path={route.path}
-              exact={route.exact}
-              component={route.component}
-            />
-          ))
-        }
+        <Route path="/" component={Home} exact />
+        <Route path="/**" component={Error} />
       </Switch>
     </Router>
   );
