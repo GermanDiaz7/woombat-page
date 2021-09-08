@@ -1,0 +1,87 @@
+{
+    "navegacion": {
+        "inicio": "Inicio",
+        "servicios": "Servicios",
+        "nosotros": "Nosotros",
+        "clientes": "Clientes",
+        "contacto": "Contacto"
+    },
+    "encabezado": {
+        "titulo": "Explore el poder de sus datos",
+        "texto": "Pensamos constantemente en cómo ser tu aliado estratégico basados en años de experiencia"
+    },
+    "servicios": {
+        "titulo": "servicios",
+        "consultoria": {
+            "titulo": "Consultoria Big Data",
+            "texto": "Acompañamos a su empresa en la creación de lagos de datos con la capacidad de almacenar y procesar datos que cumplen con las características de ser voluminosos, diversos y generados en tiempo real. Lo anterior con consideraciones de seguridad de datos, gobierno, escalabilidad, linaje y cumplimiento de regulaciones financieras como PCI y GDPR."
+        },
+        "analitica-descriptiva": {
+            "titulo": "Analitica descriptiva",
+            "texto": "Con la capacidad de explorar una mayor cantidad de datos de su organización, lo acompañamos en el entendimiento de la situación actual de su negocio, mediante la creación de tableros de control, construcción de reportes, indicadores claves del proceso (KPI’s) y análisis comparativo."
+        },
+        "analitica-avanzada": {
+            "titulo": "Analitica avanzada",
+            "texto": "Sus datos hablan del presente para ayudarlo a entender el futuro. Por eso, lo acompañamos en el uso de estos para desarrollar modelos predictivos que le permitan predecir y simular el comportamiento de su negocio en distintos escenarios, mediante el uso de técnicas de aprendizaje de máquina y aprendizaje profundo."
+        },
+        "ingeligencia-artificial": {
+            "titulo": "Inteligencia Artificial",
+            "texto": "Automatice procesos de su empresa tales como reconocimiento de objetos, voz a texto, reconocimiento óptico de caracteres (OCR) o chatbots mediante el uso de la inteligencia artificial."
+        },
+        "consultoria-nube": {
+            "titulo": "Consultoria en la nube",
+            "texto": "Entendemos que la nube juega un rol esencial para las organizaciones, por eso, contamos con un equipo de profesionales dispuesto a acompañarlo en la adopción de la nube con las mejores prácticas basadas en la experiencia de despliegues productivos de nuestros productos."
+        }
+    },
+    "aliados": {
+        "titulo": "Aliados estrategicos"
+    },
+    "nosotros": {
+        "titulo": "Nosotros",
+        "mision": {
+            "titulo": "Mision",
+            "texto": "Acompañar en la adaptación adecuada de las tecnologías relacionadas con Big Data, Analítica y computación en la nube para ayudar en la automatización de procesos y en el conocimiento del negocio."
+        },
+        "vision": {
+            "titulo": "Vision",
+            "texto": "Ser líderes regionales en la creación de soluciones basadas en Big Data y computación en la nube que den valor a nuestros clientes."
+        }
+    },
+    "clientes": {
+        "titulo": "Clientes",
+        "texto": "Casos de exito",
+        "subtexto": "Experiencias unicas"
+    },
+    "contacto": {
+        "informacion": "AL DILIGENCIAR ESTE FORMULARIO USTED ESTARÁ ACEPTANDO LA POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES DE WOOMBAT CONSULTING GROUP SAS, CONSULTE MAS AQUÍ: LEER POLITICA",
+        "autorizacion": "ACEPTA EL USO DE LOS DATOS PERSONALES POR PARTE DE WOOMBAT CONSULTING GROUP S.A.S",
+        "formulario": {
+            "nombre": "Nombre Completo",
+            "empresa": "Nombre de la Empresa",
+            "email": "Correo Empresarial",
+            "cargo": "Cargo",
+            "texto": "¿En que podemos ayudarte?",
+            "input": "Enviar"
+        },
+        "datos": {
+            "email": "Correo Electronico: info@woombatcg.com",
+            "telefono": "Telefono: +57 1 2100131",
+            "Direccion": "Direccion: Carrera 60 #44-92",
+            "ciudad": "Bogota, Colombia"
+        }
+    },
+    "informacion": {
+        "politica": "Politica de Privacidad",
+        "servicios": "Servicios",
+        "consultoria": "Consultoria Big Data",
+        "analitica-descriptiva": "Analitica Descriptiva",
+        "analitica-avanzada": "Analitica Avanzada",
+        "inteligencia": "Inteligencia Artificial",
+        "nube": "Consultoria en la Nube",
+        "nosotros": "Nosotros",
+        "mision": "Mision",
+        "vision": "Vision",
+        "clientes": "Clientes",
+        "contacto": "Contactenos"
+    }
+}
