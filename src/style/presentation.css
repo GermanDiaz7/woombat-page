@@ -5,11 +5,22 @@
 }
 
 .part {
-    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 157%;
     width: 50%;
 }
 
+.part h1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 5%;
+}
+
+.part h3 {
+    color: rgba(255, 255, 255, 0.685);
+}
+
 .part2 {
-    /* background-color: black; */
     width: 50%;
 }
