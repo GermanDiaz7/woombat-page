@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import WebFont from 'webfontloader';
 import App from './App';
 import { I18nextProvider } from 'react-i18next';
