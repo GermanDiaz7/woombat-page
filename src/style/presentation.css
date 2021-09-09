@@ -1,0 +1,15 @@
+.presentation-container {
+    margin-top: 20px;
+    height: 80vh;
+    display: flex;
+}
+
+.part {
+    /* background-color: aqua; */
+    width: 50%;
+}
+
+.part2 {
+    /* background-color: black; */
+    width: 50%;
+}

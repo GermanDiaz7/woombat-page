@@ -1,7 +1,10 @@
+import { Container } from "../style/Container";
 const Allies = () => {
     return ( 
         <div>
-            This is Allies
+            <Container>
+                This is Allies
+            </Container>
         </div>
      );
 }
