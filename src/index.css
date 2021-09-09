@@ -8,3 +8,16 @@
 html{
 	scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar{ 
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6f81ff;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6f80ffdc;
+}
