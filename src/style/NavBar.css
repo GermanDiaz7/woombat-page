@@ -37,3 +37,9 @@
     cursor: pointer;
     margin-bottom: 3px;
 }
+
+@media(max-width: 594px) {
+    .navbar-container {
+        display: none;
+    }
+}

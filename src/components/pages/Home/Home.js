@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 
 // Components
 import Header from "../../Header";
+import Services from "../../Services";
 import Allies from "../../Allies";
 import Clients from "../../Clients";
 import AboutUs from "../../AboutUs";
@@ -16,6 +17,7 @@ const Home = () => {
         </Helmet>
         <Container fluid>
             <Header />
+            <Services />
             <Allies />
             <AboutUs />
             <Clients />

@@ -9,3 +9,9 @@
     height: 100%;
     background-color:rgba(21, 21, 47, 0.74);
 }
+
+@media(max-width: 962px) {
+    .bg-Image {
+        width: 100vw;
+    }
+}
