@@ -23,10 +23,11 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .allies-content-img {
-    margin-right: 50px;
+    width: 20%;
 }
 
 .allies-content-img img {
@@ -36,6 +37,5 @@
 }
 
 .allies-content-img img:hover {
-    width: 230px;
     filter: grayscale(0%);
 }
