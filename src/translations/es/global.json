@@ -39,6 +39,7 @@
     },
     "nosotros": {
         "titulo": "Nosotros",
+        "subtitulo": "¿Quienes Somos?",
         "mision": {
             "titulo": "Mision",
             "texto": "Acompañar en la adaptación adecuada de las tecnologías relacionadas con Big Data, Analítica y computación en la nube para ayudar en la automatización de procesos y en el conocimiento del negocio."

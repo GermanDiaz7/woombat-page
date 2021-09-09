@@ -6,6 +6,7 @@ import { Helmet } from "react-helmet";
 import Header from "../../Header";
 import Allies from "../../Allies";
 import Clients from "../../Clients";
+import AboutUs from "../../AboutUs";
 
 const Home = () => {
   return (
@@ -15,8 +16,9 @@ const Home = () => {
         </Helmet>
         <Container fluid>
             <Header />
-            <Clients />
             <Allies />
+            <AboutUs />
+            <Clients />
         </Container>
     </Fragment>
   );
