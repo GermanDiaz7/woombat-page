@@ -13,7 +13,8 @@ const Home = () => {
             <title>Woombat Consulting Group SAS</title>
         </Helmet>
         <Container fluid>
-          <Allies />
+            <Header />
+            <Allies />
         </Container>
     </Fragment>
   );
