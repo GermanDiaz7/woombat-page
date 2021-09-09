@@ -34,7 +34,8 @@
         }
     },
     "aliados": {
-        "titulo": "Aliados estrategicos"
+        "titulo": "Aliados Estratégicos",
+        "subtitulo": "Nuestros"
     },
     "nosotros": {
         "titulo": "Nosotros",

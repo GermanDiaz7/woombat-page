@@ -34,7 +34,8 @@
         }
     },
     "aliados": {
-        "titulo": "Strategic Allies"
+        "titulo": "Strategic Allies",
+        "subtitulo": "Our"
     },
     "nosotros": {
         "titulo": "About us",

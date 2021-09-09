@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { ReactComponent as Logo } from "../img/woombat_black.svg";
 
 //styles
-import "../style/navBar.css";
+import "../style/navbar.css";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation("global");
