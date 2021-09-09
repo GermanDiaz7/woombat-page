@@ -39,6 +39,7 @@
     },
     "nosotros": {
         "titulo": "About us",
+        "subtitulo": "",
         "mision": {
             "titulo": "Mision",
             "texto": "Accompany in the adequate adaptation of the technologies related to Big Data, Analytics and cloud computing to help in the automation of processes and in the knowledge of the business."
