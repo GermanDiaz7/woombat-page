@@ -15,7 +15,6 @@ const Presentation = () => {
           <div className='part2'>
 
           </div>
-          {/* <p>{t("navegacion.inicio")}</p> */}
       </div>
   )
 };
