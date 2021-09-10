@@ -1,5 +1,5 @@
 .clients {
-    margin-top: 1.6rem;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -17,10 +17,10 @@
 }
 
 .clients-content {
-    margin-top: 50px;
+    margin-top: 25px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
     align-items: center;
     grid-gap: 25px;
@@ -40,16 +40,6 @@
     filter: grayscale(0%);
 }
 
-.carrousel {
-    width: 100%;
-}
-
-.carrousel img {
-    width: 100%;
-}
-
-
-
 @media screen and (max-width: 1250px) {
     .clients-content {
         grid-template-columns: repeat(4, 1fr);
@@ -62,14 +52,12 @@
     }
 }
 
-@media screen and (max-width: 850px) {
-    .clients-content {
-        grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 960px) {
+    .clients {
+        margin-top: 100px;
     }
-}
 
-@media screen and (max-width: 600px) {
     .clients-content {
-        grid-template-columns: repeat(1, 1fr);
+        display: none;
     }
 }
