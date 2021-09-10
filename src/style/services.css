@@ -1,0 +1,48 @@
+.services {
+    width: 100%;
+    margin-top: 1.6rem;
+}
+
+.services-title {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: normal;
+}
+
+.services-container {
+    background-color: white;
+}
+
+.services-container-section{
+    display: flex;
+    height: 50vh;
+}
+
+.section {
+    width: 50%;
+}
+
+.section-left {
+    background-image: url(../img/services/bigData.jpg);
+    border-radius: 5px;
+    background-size: cover;
+
+
+    /* color: rgb(200, 200, 200); */
+    font-weight: 700;
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+}
+
+.section-left h1{
+    background-color: aliceblue;
+    color: black;
+}
+
+.section-right {
+    display: flex;
+    align-items: center;
+    font-size: 110%;
+    padding-left: 30px;
+}

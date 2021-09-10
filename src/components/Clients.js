@@ -1,7 +1,8 @@
 import { useRef } from 'react'
 import { Container } from '../style/Container';
 import { useTranslation } from "react-i18next";
-import Slider from "react-slick";
+// import Slider from "react-slick";
+// import Slider from "react-slick";
 
 import "../style/clients.css";
 
@@ -24,13 +25,13 @@ const Clients = () => {
     const ref = useRef(null)
     // console.log(ref.current.children[2].children[0].style.display = "none")
 
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
+    // const settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    //   };
 
     return ( 
         <div className="clients" ref={ref}>
