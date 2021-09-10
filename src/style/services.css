@@ -7,6 +7,7 @@
     text-align: center;
     font-size: 2.3rem;
     font-weight: normal;
+    margin-bottom: 50px;
 }
 
 .services-container {
@@ -23,26 +24,58 @@
 }
 
 .section-left {
-    background-image: url(../img/services/bigData.jpg);
-    border-radius: 5px;
-    background-size: cover;
-
-
-    /* color: rgb(200, 200, 200); */
-    font-weight: 700;
-    font-size: 120%;
     display: flex;
     align-items: center;
-}
-
-.section-left h1{
-    background-color: aliceblue;
-    color: black;
+    justify-content: center;
 }
 
 .section-right {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     font-size: 110%;
     padding-left: 30px;
+}
+
+.image {
+    width: 84%;
+}
+
+
+@media (max-width: 789px) {
+    .section{
+        width: 100%;
+    }
+
+    .services-container-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 35vh;
+    }
+
+    .image {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 395px) {
+    .section {
+        font-size: small;
+    }
+
+    .services-container-section {
+        height: 28vh;
+    }
+}
+
+@media (max-width: 339px) {
+    .section {
+        font-size: x-small;
+    }
+
+    .services-container-section {
+        height: 22vh;
+    }
 }
