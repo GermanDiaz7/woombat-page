@@ -1,7 +1,9 @@
 import { Container } from "../style/Container";
 import { useTranslation } from "react-i18next";
+import Slider from "react-slick";
 
 import '../style/allies.css';
+import '../style/slider.css';
 
 import cloudera from '../img/allies/cloudera.png';
 import azure from '../img/allies/azure.png';
@@ -11,6 +13,14 @@ import confludent from '../img/allies/confludent.png';
 const Allies = () => {
 
     const { t } = useTranslation("global")
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      };
 
     return ( 
         <div className="allies">
@@ -31,6 +41,12 @@ const Allies = () => {
                             <img src={confludent} alt="Confludent" />
                         </div>
                     </div>
+                    <Slider {...settings} className="slider">
+                        <img src={cloudera} alt="Cloudera" />
+                        <img src={azure} alt="Azure" />
+                        <img src={elastic} alt="Elastic" />
+                        <img src={confludent} alt="Confludent" />
+                    </Slider>
                 </Container>
         </div>
      );

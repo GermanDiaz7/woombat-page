@@ -1,6 +1,6 @@
 .allies {
     width: 100%;
-    margin-top: 1.6rem;
+    margin-top: 50px;
 }
 
 .allies-subtitle {
@@ -17,7 +17,7 @@
 }
 
 .allies-content {
-    margin-top: 50px;
+    margin-top: 25px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -52,14 +52,12 @@
     }
 }
 
-@media screen and (max-width: 850px) {
-    .allies-content {
-        grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 960px) {
+    .allies {
+        margin-top: 100px;
     }
-}
 
-@media screen and (max-width: 600px) {
     .allies-content {
-        grid-template-columns: repeat(1, 1fr);
+        display: none;
     }
 }
