@@ -39,7 +39,8 @@
     },
     "nosotros": {
         "titulo": "Nosotros",
-        "subtitulo": "¿Quienes Somos?",
+        "subtitulo": "Sobre",
+        "texto": "Somos un aliado estratégico que apoya la transformación, la innovación y el cambio constante. Desde una adecuada gestión de datos, generamosconocimiento.",
         "mision": {
             "titulo": "Mision",
             "texto": "Acompañar en la adaptación adecuada de las tecnologías relacionadas con Big Data, Analítica y computación en la nube para ayudar en la automatización de procesos y en el conocimiento del negocio."

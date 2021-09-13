@@ -1,75 +1,39 @@
 .about {
-    margin-top: 50px;
     width: 100%;
-}
-
-.about-title {
-    text-align: center;
-    font-size: 2.3rem;
-    font-weight: normal;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
 }
 
 .about-content {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    display: grid;
     align-items: center;
-    height: 50vh;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .about-content-left {
-    width: 50%;
+    width: 100%;
 }
 
 .about-content-right {
-    width: 45%;
+    width: 100%;
 }
 
-.about-content-left-mision {
+.about-title {
     margin-bottom: 20px;
+}
+
+.about-info {
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.about-content-right img {
     width: 100%;
-}
-
-.about-content-left-mision-title {
-    font-size: 2.3rem;
-}
-
-.about-content-left-mision-text {
-    border-left: 8px solid #6f81ff;
-    padding: 10px;
-    font-size: 17px;
-}
-
-.about-content-left-vision {
-    width: 100%;
-}
-
-.about-content-left-vision-title {
-    font-size: 2.3rem;
-}
-
-.about-content-left-vision-text {
-    border-left: 8px solid #6f81ff;
-    padding: 10px;
-    font-size: 17px;
-}
-
-@media screen and (max-width: 960px) {
-    .about {
-        margin-top: 100px;
-    }
-
-    .about-content {
-        display: inline-block;
-        height: auto;
-    }
-
-    .about-content-right {
-        display: none;
-    }
-
-    .about-content-left {
-        margin-top: 25px;
-        width: 100%;
-    }
+    border: 6px solid #CE6D34;
+    border-style: dashed ;
+    border-radius: 10px;
 }
