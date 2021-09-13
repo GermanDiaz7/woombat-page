@@ -18,3 +18,17 @@
 .line-left {
     border-left: 7px solid #CE6D34;
 }
+
+@media screen and (max-width: 1500px) {
+    .title {
+        font-size: 35px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+}

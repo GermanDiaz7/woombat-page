@@ -18,9 +18,7 @@ const Home = () => {
         <Container fluid>
             <Header />
             <Services />
-            <Allies />
             <AboutUs />
-            <Clients />
         </Container>
     </Fragment>
   );

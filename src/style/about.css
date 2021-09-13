@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f1f1f1;
 }
 
 .about-content {
@@ -36,4 +35,11 @@
     border: 6px solid #CE6D34;
     border-style: dashed ;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 960PX) {   
+    .about-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
