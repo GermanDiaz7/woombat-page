@@ -6,7 +6,7 @@ import '../style/allies.css';
 import '../style/slider.css';
 
 import cloudera from '../img/allies/cloudera.png';
-import azure from '../img/allies/azure.png';
+import azure from '../img/allies/azure2.png';
 import elastic from '../img/allies/elastic.png';
 import confludent from '../img/allies/confludent.png';
 
@@ -24,30 +24,33 @@ const Allies = () => {
 
     return ( 
         <div className="allies">
-            <h3 className="allies-subtitle">{t("aliados.subtitulo")}</h3>
-            <h2 className="allies-title">{t("aliados.titulo")}</h2>
-                <Container>
-                    <div className="allies-content">
-                        <div className="allies-content-img">
-                            <img src={cloudera} alt="Cloudera" />
-                        </div>
-                        <div className="allies-content-img">
-                            <img src={azure} alt="Azure" />
-                        </div>
-                        <div className="allies-content-img">
-                            <img src={elastic} alt="Elastic" />
-                        </div>
-                        <div className="allies-content-img">
-                            <img src={confludent} alt="Confludent" />
-                        </div>
-                    </div>
-                    <Slider {...settings} className="slider">
+            <Container>
+                <p className="subtitle text-center">{t("aliados.subtitulo")}</p>
+                <h2 className="title text-center">{t("aliados.titulo")}</h2>
+                <div className="allies-content">
+                    <div className="allies-content-allie">
                         <img src={cloudera} alt="Cloudera" />
+                    </div>
+
+                    <div className="allies-content-allie">
                         <img src={azure} alt="Azure" />
+                    </div>
+
+                    <div className="allies-content-allie">
                         <img src={elastic} alt="Elastic" />
+                    </div>
+
+                    <div className="allies-content-allie">
                         <img src={confludent} alt="Confludent" />
-                    </Slider>
-                </Container>
+                    </div>
+                </div>
+                <Slider {...settings} className="slider">
+                    <img src={cloudera} alt="Cloudera" />
+                    <img src={azure} alt="Azure" />
+                    <img src={elastic} alt="Elastic" />
+                    <img src={confludent} alt="Confludent" />
+                </Slider>
+            </Container>
         </div>
      );
 }

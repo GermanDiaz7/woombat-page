@@ -19,6 +19,10 @@
     border-left: 7px solid #CE6D34;
 }
 
+.text-center {
+    text-align: center;
+}
+
 @media screen and (max-width: 1500px) {
     .title {
         font-size: 35px;
