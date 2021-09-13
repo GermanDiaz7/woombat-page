@@ -7,7 +7,7 @@ export const Container = styled.div`
     
 
     @media (max-width: 60rem) {
-        width: 95%;
-        margin: auto;
+        width: ${props => props.fluid ? '100%' : '98%'};
+        margin: ${props => props.fluid ? 'auto' : 'auto'};
     }
 `
