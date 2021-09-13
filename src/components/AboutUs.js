@@ -3,7 +3,7 @@ import { Container } from "../style/Container";
 
 import '../style/about.css';
 
-import about from '../img/about-us/startup-launch.png'
+import about from '../img/about-us/bg.jpeg'
 
 const AboutUs = () => {
 
@@ -11,21 +11,26 @@ const AboutUs = () => {
 
     return ( 
         <div className="about">
-            <h3 className="allies-subtitle">{t("nosotros.subtitulo")}</h3>
-            <h2 className="about-title">{t("nosotros.titulo")}</h2>
             <Container>
                 <div className="about-content">
                     <div className="about-content-left">
-                        <div className="about-content-left-mision">
-                            <h2 className="about-content-left-mision-title">{t("nosotros.mision.titulo")}</h2>
-                            <p className="about-content-left-mision-text">{t("nosotros.mision.texto")}</p>
+                        <div className="about-title">
+                            <p className="subtitle">{t("nosotros.subtitulo")}</p>
+                            <h2 className="title">{t("nosotros.titulo")}</h2>
+                            <p className="text">{t("nosotros.texto")}</p>
                         </div>
-                        <div className="about-content-left-vision">
-                            <h2 className="about-content-left-vision-title">{t("nosotros.vision.titulo")}</h2>
-                            <p className="about-content-left-vision-text">{t("nosotros.vision.texto")}</p>
+                        <div className="about-info">
+                            <h3 className="title line-left">{t("nosotros.mision.titulo")}</h3>
+                            <p className="text">{t("nosotros.mision.texto")}</p>
+                        </div>
+                        <div className="about-info">
+                            <h3 className="title line-left">{t("nosotros.vision.titulo")}</h3>
+                            <p className="text">{t("nosotros.vision.texto")}</p>
                         </div>
                     </div>
-                    <img src={about} alt="About Us" className="about-content-right"/>
+                    <div className="about-content-right">
+                        <img src={about} alt="About Woombat" />
+                    </div>
                 </div>
             </Container>
         </div>

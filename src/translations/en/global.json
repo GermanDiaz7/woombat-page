@@ -40,6 +40,7 @@
     "nosotros": {
         "titulo": "About us",
         "subtitulo": "",
+        "texto": "We are a strategic ally that supports transformation, innovation and constant change. From an adequate data management, we generate knowledge.",
         "mision": {
             "titulo": "Mision",
             "texto": "Accompany in the adequate adaptation of the technologies related to Big Data, Analytics and cloud computing to help in the automation of processes and in the knowledge of the business."
