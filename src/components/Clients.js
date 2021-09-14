@@ -30,58 +30,7 @@ const Clients = () => {
 
   return (
     <div className="clients">
-      <h3 className="clients-subtitle">{t("clientes.subtitulo")}</h3>
-      <h2 className="clients-title">{t("clientes.titulo")}</h2>
-      <Container>
-        <div className="clients-content">
-          <div className="clients-content-img">
-            <img src={sb} alt="Seguros Bolivar" />
-          </div>
-          <div className="clients-content-img">
-            <img src={dv} alt="Davivienda" />
-          </div>
-          <div className="clients-content-img">
-            <img src={pj} alt="Universidad Javeriana" />
-          </div>
-          <div className="clients-content-img">
-            <img src={ev} alt="Everis" />
-          </div>
-          <div className="clients-content-img">
-            <img src={ej} alt="Ejercito de Colombia" />
-          </div>
-          <div className="clients-content-img">
-            <img src={cj} alt="ColJuegos" />
-          </div>
-          <div className="clients-content-img">
-            <img src={mh} alt="Ministerio de Hacienda" />
-          </div>
-          <div className="clients-content-img">
-            <img src={bvc} alt="Bolsa de Valores de Colombia" />
-          </div>
-          <div className="clients-content-img">
-            <img src={tuya} alt="Tuya" />
-          </div>
-          <div className="clients-content-img">
-            <img src={cv} alt="Comision de la Verdad" />
-          </div>
-          <div className="clients-content-img">
-            <img src={sfc} alt="Superintendencia Financiera de Colombia" />
-          </div>
-        </div>
-        <Slider {...settings} className="slider">
-            <img src={sb} alt="Seguros Bolivar" />
-            <img src={dv} alt="Davivienda" />
-            <img src={pj} alt="Universidad Javeriana" />
-            <img src={ej} alt="Ejercito de Colombia" />
-            <img src={ev} alt="Everis" />
-            <img src={cj} alt="ColJuegos" />
-            <img src={mh} alt="Ministerio de Hacienda" />
-            <img src={bvc} alt="Bolsa de Valores de Colombia" />
-            <img src={tuya} alt="Tuya" />
-            <img src={cv} alt="Comision de la Verdad" />
-            <img src={sfc} alt="Superintendencia Financiera de Colombia" />
-        </Slider>
-      </Container>
+      Hola
     </div>
   );
 };
