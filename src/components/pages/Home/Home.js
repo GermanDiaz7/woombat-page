@@ -20,6 +20,7 @@ const Home = () => {
             <Services />
             <Allies />
             <AboutUs />
+            <Clients />
         </Container>
     </Fragment>
   );
