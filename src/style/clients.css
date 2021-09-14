@@ -54,8 +54,13 @@
 
     .clients-content-right {
         margin-top: 50px;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .clients-content-client img {
+        width: 400px;
     } 
+    
 }
 
 @media screen and (max-width: 1250px) {
