@@ -1,0 +1,89 @@
+{
+    "navegacion": {
+        "inicio": "Home",
+        "servicios": "Services",
+        "nosotros": "About Us",
+        "clientes": "Clients",
+        "contacto": "Contact Us"
+    },
+    "encabezado": {
+        "titulo": "Explore the power of your data",
+        "texto": "We constantly think on how to be your strategic ally based on years of experience"
+    },
+    "servicios": {
+        "titulo": "Services",
+        "consultoria": {
+            "titulo": "Big Data Consulting",
+            "texto": "We support your company through the creation of data lakes, with the ability to store and proccess voluminous, diverse and real time generated data. All with security considerations, goverment, scalability, lineage, and compliance with financial regulations such as PCI and GDPR."
+        },
+        "analitica-descriptiva": {
+            "titulo": "Descriptive Analytics",
+            "texto": "We support you as well into understanding of the current situation of your business through creation control panels, report construction, performance indicator keys and comparative analysis."
+        },
+        "analitica-avanzada": {
+            "titulo": "Avanced Analytics",
+            "texto": "Your data speak about the present of your enterprise in order to helping you understanding the future, because of that, we strongly support you through the use of that data to develop predictive models that allows you to predict and simulate your business behavior in different contexts, through the use of machine learning, techniches and deep learning techniches."
+        },
+        "ingeligencia-artificial": {
+            "titulo": "Artificial Intelligence",
+            "texto": "Start automating your company’s processes like objects recognition, voice to text, optical characters recognition or chatbots by using artificial intelligence."
+        },
+        "consultoria-nube": {
+            "titulo": "Cloud consulting",
+            "texto": "We understand the cloud’s essential role for organizations. Therefore we have an experts team commited to support you in your adoption with cloud with the best practices based in our productive deployments experiences."
+        }
+    },
+    "aliados": {
+        "titulo": "Strategic Allies",
+        "subtitulo": "Our"
+    },
+    "nosotros": {
+        "titulo": "About us",
+        "subtitulo": "",
+        "texto": "We are a strategic ally that supports transformation, innovation and constant change. From an adequate data management, we generate knowledge.",
+        "mision": {
+            "titulo": "Mision",
+            "texto": "Accompany in the adequate adaptation of the technologies related to Big Data, Analytics and cloud computing to help in the automation of processes and in the knowledge of the business."
+        },
+        "vision": {
+            "titulo": "Vision",
+            "texto": "To be regional leaders in the creation of analytical based solutions based on Big Data and cloud computing that give value to our customers."
+        }
+    },
+    "clientes": {
+        "titulo": "Clients",
+        "subtitulo": "Our"
+    },
+    "contacto": {
+        "informacion": "BY DILIGINATING THIS FORM YOU WILL BE ACCEPTING THE POLICY FOR THE PROCESSING OF PERSONAL DATA OF WOOMBAT CONSULTING GROUP SAS, SEE MORE HERE: READ POLICY",
+        "autorizacion": "ACCEPT THE USE OF PERSONAL DATA BY WOOMBAT CONSULTING GROUP S.A.S",
+        "formulario": {
+            "nombre": "Full Name",
+            "empresa": "Company Name",
+            "email": "Company Email",
+            "cargo": "Role",
+            "texto": "How can we help you?",
+            "input": "Send"
+        },
+        "datos": {
+            "email": "Email Address: info@woombatcg.com",
+            "telefono": "Office Phone: +57 1 2100131",
+            "Direccion": "Adress: Carrera 60 #44-92",
+            "ciudad": "Bogota, Colombia"
+        }
+    },
+    "informacion": {
+        "politica": "Privacy Policies",
+        "servicios": "Services",
+        "consultoria": "Big Data Consulting",
+        "analitica-descriptiva": "Descriptive Analytics",
+        "analitica-avanzada": "Advanced Analytics",
+        "inteligencia": "Artificial Intelligence",
+        "nube": "Cloud Consulting",
+        "nosotros": "About US",
+        "mision": "Mision",
+        "vision": "Vision",
+        "clientes": "Clients",
+        "contacto": "Contact US"
+    }
+}
