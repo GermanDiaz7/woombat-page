@@ -1,0 +1,45 @@
+.navbar-container {
+    padding-top: 25px;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container a {
+    color: white;
+    text-decoration: none;
+    padding-left: 23px;
+}
+
+.navbar-sections {
+    display: flex;
+}
+
+.navbar-sections-navegation {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.woombatLg {
+    width: 14%;
+}
+
+.translation-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.translation-btn {
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+@media(max-width: 594px) {
+    .navbar-container {
+        display: none;
+    }
+}
