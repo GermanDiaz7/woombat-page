@@ -5,8 +5,12 @@
 @media screen and (max-width: 960px) {
     .slider {
         display: block;
-        width: 100%;
+        width: 90%;
         margin: auto;
         margin-top: 25px;
+    }
+
+    .slider img {
+        width: 1000px;
     }
 }

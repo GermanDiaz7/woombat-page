@@ -21,16 +21,82 @@ const Clients = () => {
   const { t } = useTranslation("global");
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToScroll: 1
   };
 
   return (
     <div className="clients">
-      Hola
+      <Container>
+        <div className="clients-content">
+          <div className="clients-content-left">
+            <p className="subtitle text-center">{t("clientes.subtitulo")}</p>
+            <h2 className="title-white text-center">{t("clientes.titulo")}</h2>
+            <p className="text-white text-center">{t("clientes.texto")}</p>
+          </div>
+          <div className="clients-content-right">
+            <div className="clients-content-client">
+              <img src={sb} alt="Seguros Bolivar" />
+            </div>
+
+            <div className="clients-content-client">
+              <img src={dv} alt="Davivienda" />
+            </div>
+
+            <div className="clients-content-client">
+              <img src={pj} alt="Universidad Javeriana" />
+            </div>
+
+            <div className="clients-content-client">
+              <img src={ev} alt="Everis" />
+            </div>
+
+            <div className="clients-content-client">
+              <img src={ej} alt="Ejercito Nacional" />
+            </div>
+
+            <div className="clients-content-client">
+              <img src={cj} alt="ColJuegos" />
+            </div>
+
+            <div className="clients-content-client">
+              <img src={mh} alt="Ministerio de Hacienda" />
+            </div>
+
+            <div className="clients-content-client">
+              <img src={bvc} alt="Bolsa de Valores" />
+            </div>
+
+            <div className="clients-content-client">
+              <img src={tuya} alt="Tuya" />
+            </div>
+
+            <div className="clients-content-client">
+              <img src={cv} alt="Comision de la Verdad" />
+            </div>
+
+            <div className="clients-content-client">
+              <img src={sfc} alt="Superintendencia Financiera" />
+            </div>
+          </div>
+        </div>
+        <Slider {...settings} className="slider">
+              <img src={sb} alt="Seguros Bolivar" />
+              <img src={dv} alt="Davivienda" />
+              <img src={pj} alt="Universidad Javeriana" />
+              <img src={ev} alt="Everis" />
+              <img src={ej} alt="Ejercito Nacional" />
+              <img src={cj} alt="ColJuegos" />
+              <img src={mh} alt="Ministerio de Hacienda" />
+              <img src={bvc} alt="Bolsa de Valores" />
+              <img src={tuya} alt="Tuya" />
+              <img src={cv} alt="Comision de la Verdad" />
+              <img src={sfc} alt="Superintendencia Financiera" />
+            </Slider>
+      </Container>
     </div>
   );
 };
