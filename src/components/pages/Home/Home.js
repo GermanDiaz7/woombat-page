@@ -8,6 +8,7 @@ import Services from "../../Services";
 import Allies from "../../Allies";
 import Clients from "../../Clients";
 import AboutUs from "../../AboutUs";
+import FormSection from "../../FormSection";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
             <Allies />
             <AboutUs />
             <Clients />
+            <FormSection />
         </Container>
     </Fragment>
   );

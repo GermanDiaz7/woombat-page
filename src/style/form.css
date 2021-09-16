@@ -1,0 +1,97 @@
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section {
+    width: 50%;
+}
+
+
+/*FORMULARIOS*/
+.inputs {
+    width: 90%;
+    border: 2px solid rgb(245, 245, 245);
+    margin-bottom: 15px;
+    padding: 10px 5px 10px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.area-text {
+    width: 90%;
+    height: 120px;
+    border: 2px solid rgb(245, 245, 245);
+}
+
+.auth-content {
+    width: 90%;
+    height: 200px;
+    overflow: scroll;
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.auth-content h3{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #26293D;
+}
+
+.auth-content p {
+    color: #707070;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.auth input {
+    margin-right: 10px;
+}
+
+.auth p {
+    font-weight: 700;
+    color: #707070;
+}
+
+.btn-active {
+    border: 0;
+    padding: 10px 25px;
+    color: white;
+    background-color: #26293D;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-active:hover {
+    color: #CE6D34;
+}
+
+.btn-none {
+    border: 0;
+    padding: 10px 25px;
+    color: white;
+    background-color: #5b5b5c;
+    border-radius: 5px;
+    cursor: no-drop;
+}
+
+@media(max-width: 954px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .left-section {
+        width: 100%;
+    }
+
+    .rigth-section {
+        display: none;
+    }
+}
