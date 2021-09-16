@@ -24,7 +24,7 @@ const Allies = () => {
       };
 
     return ( 
-        <div className="allies">
+        <div className="allies" id="allies">
             <Container>
                 <p className="subtitle text-center">{t("aliados.subtitulo")}</p>
                 <h2 className="title text-center">{t("aliados.titulo")}</h2>

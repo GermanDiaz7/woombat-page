@@ -3,6 +3,7 @@
         "inicio": "Home",
         "servicios": "Services",
         "nosotros": "About Us",
+        "aliados": "Allies", 
         "clientes": "Clients",
         "contacto": "Contact Us"
     },
@@ -12,6 +13,10 @@
     },
     "servicios": {
         "titulo": "Services",
+        "subtitulo" : "Our",
+        "informacion" : "We are prepared to give you any type of comprehensive solution in the data collection, visualization and analytical use processes that will allow us to obtain a better business result.",
+        "subinformacion" : "We offer different types of services",
+        "boton" : "I want to know more",
         "consultoria": {
             "titulo": "Big Data Consulting",
             "texto": "We support your company through the creation of data lakes, with the ability to store and proccess voluminous, diverse and real time generated data. All with security considerations, goverment, scalability, lineage, and compliance with financial regulations such as PCI and GDPR."

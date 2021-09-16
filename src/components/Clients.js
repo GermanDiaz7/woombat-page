@@ -30,7 +30,7 @@ const Clients = () => {
   };
 
   return (
-    <div className="clients">
+    <div className="clients" id='clients'>
       <Container>
         <div className="clients-content">
           <div className="clients-content-left">

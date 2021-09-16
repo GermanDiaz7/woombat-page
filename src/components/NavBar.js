@@ -15,10 +15,11 @@ const Navbar = () => {
         </div>
       <div className='navbar-sections'>
         <div className='navbar-sections-navegation'>
-          <a href="/">{t("navegacion.inicio")}</a>
-          <a href="/">{t("navegacion.servicios")}</a>
-          <a href="/">{t("navegacion.nosotros")}</a>
-          <a href="/">{t("navegacion.clientes")}</a>
+          <a href="#presentation">{t("navegacion.inicio")}</a>
+          <a href="#serivices">{t("navegacion.servicios")}</a>
+          <a href="#allies">{t("navegacion.aliados")}</a>
+          <a href="#about">{t("navegacion.nosotros")}</a>
+          <a href="#clients">{t("navegacion.clientes")}</a>
           <a href="/">{t("navegacion.contacto")}</a>
         </div>
         <div className='translation-content'>
