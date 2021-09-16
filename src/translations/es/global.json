@@ -3,6 +3,7 @@
         "inicio": "Inicio",
         "servicios": "Servicios",
         "nosotros": "Nosotros",
+        "aliados": "Aliados", 
         "clientes": "Clientes",
         "contacto": "Contacto"
     },
@@ -12,6 +13,10 @@
     },
     "servicios": {
         "titulo": "Servicios",
+        "subtitulo" : "Nuestros",
+        "informacion" : "Estamos preparados para darte cualquier tipo de solucion integral en los procesos de recoleccion, visualizacion y uso analitico de los datos que nos permitiran obtener un mejor resultado de negocio.",
+        "subinformacion" : "Ofrecemos diferentes tipos de servicios",
+        "boton" : "Quiero saber mas",
         "consultoria": {
             "titulo": "Consultoria Big Data",
             "texto": "Acompañamos a su empresa en la creación de lagos de datos con la capacidad de almacenar y procesar datos que cumplen con las características de ser voluminosos, diversos y generados en tiempo real. Lo anterior con consideraciones de seguridad de datos, gobierno, escalabilidad, linaje y cumplimiento de regulaciones financieras como PCI y GDPR."

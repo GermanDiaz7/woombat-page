@@ -10,7 +10,7 @@ const AboutUs = () => {
     const { t } = useTranslation("global")
 
     return ( 
-        <div className="about">
+        <div className="about" id='about'>
             <Container>
                 <div className="about-content">
                     <div className="about-content-left">
