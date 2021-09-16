@@ -89,3 +89,29 @@
     margin-bottom: 20px;
     font-size: 15px;
 }
+
+
+@media screen and (max-width: 711px) {
+    .services-info {
+        width: 100%;
+    }
+
+    .services-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left {
+        margin-bottom: 50px;
+    }
+
+    .desbord-block {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .card-services-deploy {
+        padding: 5px 10px;
+    }
+}

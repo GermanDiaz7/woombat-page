@@ -60,7 +60,7 @@ const Services = () => {
   return (
     <div className="services" id='serivices'>
       <Container>
-        <div class='services-container'>
+        <div className='services-container'>
           <div className='services-info left'>
               <div className='container'>
                 <div onClick={consulting}>
