@@ -20,7 +20,7 @@ const Navbar = () => {
           <a href="#allies">{t("navegacion.aliados")}</a>
           <a href="#about">{t("navegacion.nosotros")}</a>
           <a href="#clients">{t("navegacion.clientes")}</a>
-          <a href="/">{t("navegacion.contacto")}</a>
+          <a href="#contact">{t("navegacion.contacto")}</a>
         </div>
         <div className='translation-content'>
           <span className='translation-btn' onClick={() => i18n.changeLanguage("es")}>| ES</span>

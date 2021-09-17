@@ -23,7 +23,7 @@ const FormSection = () => {
     }
 
     return ( 
-        <Container className='content'>
+        <Container className='content' id='contact'>
             <div className='form-section left-section'>
                 <div className='auth-content'>
                     <h3>Autorización de tratamiento de Datos Personales</h3>
@@ -37,7 +37,7 @@ const FormSection = () => {
                         Política de privacidad en www.woombatcg.com.
                     </p>
                     <br/>
-                        <p>{t("contacto.informacion")}</p>
+                        <p>{t("contacto.informacion")}<a href="https://instaclone-steven.s3.us-west-1.amazonaws.com/politica-de-privacidad.pdf" target="_blank" rel="noopener noreferrer">LEER POLITICA</a></p>
                 </div>
                 <br />
                 <div className='auth'>
