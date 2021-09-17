@@ -7,6 +7,7 @@ import Form from "./Form";
 //styles
 import '../style/form.css'
 import { useState } from "react";
+import image from "../img/form/form-image.jpeg"
 
 
 const FormSection = () => {
@@ -48,7 +49,7 @@ const FormSection = () => {
             </div>
 
             <div className='form-section rigth-section'>
-                
+                <img src={image} alt="About Woombat" />
             </div>
         </Container>
      );
