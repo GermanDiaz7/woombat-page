@@ -1,5 +1,6 @@
 .content {
-    height: 100vh;
+    min-height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,6 +8,13 @@
 
 .form-section {
     width: 50%;
+}
+
+.rigth-section img {
+    width: 100%;
+    border: 6px solid #CE6D34;
+    border-style: dashed ;
+    border-radius: 10px;
 }
 
 
@@ -92,6 +100,7 @@
     }
 
     .rigth-section {
-        display: none;
+        width: 100%;
+        margin-top: 30px;
     }
 }
