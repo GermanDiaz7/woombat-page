@@ -79,7 +79,10 @@
         }
     },
     "informacion": {
-        "politica": "Privacy Policies",
+        "politica": {
+            "privacidad": "Privacy Policy",
+            "url": "https://woombatcg.s3.us-west-1.amazonaws.com/privacy-policy.pdf"
+        },
         "servicios": "Services",
         "consultoria": "Big Data Consulting",
         "analitica-descriptiva": "Descriptive Analytics",
@@ -91,5 +94,11 @@
         "vision": "Vision",
         "clientes": "Clients",
         "contacto": "Contact US"
+    },
+    "politica-datos": {
+        "titulo": "Authorization to process Personal Data",
+        "autorizacion": "I authorize Woombat Consulting Group SAS for the personal data collected to be used in order to process my contact request, send me information about its products and services and for advertising purposes by using the Send button. This data can be shared with business partners for the purposes of commercial information on products and services offered. You have the right to know, update and rectify your data and this right can be exercised through the email account protecciondedatos@woombatcg.com. For more information you can consult our Privacy Policy.",
+        "tratamiento": "By filling out this form you will be accepting the personal data treatment policy of worombat consulting group sas, see more here",
+        "privacidad": "Read Policy"
     }
 }
