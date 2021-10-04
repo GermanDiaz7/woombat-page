@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
 
                     <div className='footer div2'>
-                        <a href="https://instaclone-steven.s3.us-west-1.amazonaws.com/politica-de-privacidad.pdf" target="_blank" rel="noopener noreferrer">Politica de privacidad</a>
+                        <a href={t("informacion.politica.url")} target="_blank" rel="noopener noreferrer">{t("informacion.politica.privacidad")}</a>
                         <h4>{t("navegacion.servicios")}</h4>
                         <a href='#serivices'>{t("servicios.consultoria.titulo")}</a>
                         <a href='#serivices'>{t("servicios.analitica-descriptiva.titulo")}</a>
