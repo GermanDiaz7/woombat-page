@@ -45,7 +45,9 @@ const FormSection = () => {
                     <input onClick={activator} type="checkbox"/>
                     <p>{t("contacto.autorizacion")}</p>
                 </div>
-                <Form encender={encender}/>
+                <div className={!encender ? "formulario" : "formulario-on"}>
+                    <Form encender={encender}/>
+                </div>
             </div>
 
             <div className='form-section rigth-section'>

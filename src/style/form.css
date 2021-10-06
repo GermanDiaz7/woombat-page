@@ -17,6 +17,16 @@
     border-radius: 10px;
 }
 
+.formulario {
+    height: 0px;
+    overflow: hidden;
+}
+
+.formulario-on {
+    height: 100%;
+}
+
+
 
 /*FORMULARIOS*/
 .inputs {
