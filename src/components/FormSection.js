@@ -27,18 +27,10 @@ const FormSection = () => {
         <Container className='content' id='contact'>
             <div className='form-section left-section'>
                 <div className='auth-content'>
-                    <h3>Autorización de tratamiento de Datos Personales</h3>
-                    <p>Autorizo a Woombatcg Consulting Group SAS para que los datos personales recolectados
-                        sean utilizados a fin de dar trámite a mi solicitud de contacto, enviarme información acerca
-                        de sus productos y servicios y para fines publicitarios al hacer uso del botón Enviar. Estos
-                        datos pueden ser compartidos con aliados de negocio para efectos de información
-                        comercial sobre productos y servicios ofrecidos. Usted tiene derecho a conocer, actualizar
-                        y rectificar sus datos y este derecho lo puede ejercer a través de la cuenta de correo
-                        protecciondedatos@woombatcg.com. Para mayor información puede consultar nuestra
-                        Política de privacidad en www.woombatcg.com.
-                    </p>
+                    <h3>{t("politica-datos.titulo")}</h3>
+                    <p>{t("politica-datos.autorizacion")}</p>
                     <br/>
-                        <p>{t("contacto.informacion")}<a href="https://instaclone-steven.s3.us-west-1.amazonaws.com/politica-de-privacidad.pdf" target="_blank" rel="noopener noreferrer">LEER POLITICA</a></p>
+                        <p>{t("contacto.informacion")}<a href="https://instaclone-steven.s3.us-west-1.amazonaws.com/politica-de-privacidad.pdf" target="_blank" rel="noopener noreferrer">{t("politica-datos.privacidad")}</a></p>
                 </div>
                 <br />
                 <div className='auth'>
