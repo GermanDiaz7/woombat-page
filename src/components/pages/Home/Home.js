@@ -11,6 +11,11 @@ import AboutUs from "../../AboutUs";
 import FormSection from "../../FormSection";
 import Footer from "../../Footer";
 
+import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+
+//styles
+import "../../../style/home.css"
+
 const Home = () => {
   return (
     <Fragment>
@@ -18,6 +23,15 @@ const Home = () => {
             <title>Woombat Consulting Group SAS</title>
         </Helmet>
         <Container fluid>
+            <div className="icons-container">
+              <a href="https://www.linkedin.com/company/woombat-consulting-group-s-a-s/" target="__blank" className="div-content"><FaLinkedinIn className="icon-component" /></a>
+            </div>
+            <div className="icons-container-two">
+              <a href="https://www.facebook.com/woombatcg/" target="__blank" className="div-content"><FaFacebookF className="icon-component" /></a>
+            </div>
+            <div className="icons-container-three">
+              <a href="https://www.instagram.com/woombatcg/" target="__blank" className="div-content"><FaInstagram className="icon-component" /></a>
+            </div>
             <Header />
             <Services />
             <Allies />
