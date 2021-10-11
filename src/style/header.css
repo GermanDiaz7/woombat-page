@@ -1,5 +1,6 @@
 .bg-Image {
-    background-image: url('https://instaclone-steven.s3.us-west-1.amazonaws.com/AdobeStock_307461398.jpeg');
+    background-image: url("../img/big-data.jpg");
+    /* background-image: url('https://instaclone-steven.s3.us-west-1.amazonaws.com/AdobeStock_307461398.jpeg'); */
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;

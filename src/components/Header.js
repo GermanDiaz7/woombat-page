@@ -13,7 +13,6 @@ const Header = () => {
         <div className='bg-Image'>
             <div className='bg'>
             <Container>
-                {/* <Navbar /> */}
                 <BurgerMenu />
                 <Presentation />
             </Container>
