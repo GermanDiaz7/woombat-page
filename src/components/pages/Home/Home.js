@@ -15,8 +15,38 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 //styles
 import "../../../style/home.css"
+import Navbar from "../../NavBar";
 
+import { useEffect, useRef, useState } from "react";
 const Home = () => {
+
+
+    
+  const [bgState, setBgState] = useState(false)
+
+
+  useEffect(() => {
+    const handleScrool = () => {
+        const div = divRef.current
+        const {y} = div.getBoundingClientRect()
+
+        if(y < -77) {
+          setBgState(true)
+        }else{
+            setBgState(false)
+        }
+    }
+
+    window.addEventListener('scroll' , handleScrool)
+
+    return () => {
+      window.removeEventListener('scroll', handleScrool)
+    }
+  }, [])
+
+  const divRef = useRef()
+
+
   return (
     <Fragment>
         <Helmet>
@@ -32,6 +62,8 @@ const Home = () => {
             <div className="icons-container-three">
               <a href="https://www.instagram.com/woombatcg/" target="__blank" className="div-content"><FaInstagram className="icon-component" /></a>
             </div>
+            <Navbar bgState={bgState}/>
+            <div ref={divRef}></div>
             <Header />
             <Services />
             <Allies />

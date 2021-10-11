@@ -1,6 +1,6 @@
 //components
 import { Container } from "../style/Container";
-import Navbar from "./NavBar";
+// import Navbar from "./NavBar";
 import Presentation from "./Presentation";
 import BurgerMenu from "./BurgerMenu";
 
@@ -13,7 +13,7 @@ const Header = () => {
         <div className='bg-Image'>
             <div className='bg'>
             <Container>
-                <Navbar />
+                {/* <Navbar /> */}
                 <BurgerMenu />
                 <Presentation />
             </Container>

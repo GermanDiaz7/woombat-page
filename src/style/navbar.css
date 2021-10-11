@@ -1,6 +1,20 @@
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-navbar {
+    background-color: rgb(5, 5, 63);
+}
+
+.nb-container {
+    position: sticky;
+    top: 0.1px;
+}
+
 .navbar-container {
-    padding-top: 25px;
-    height: 5rem;
+    position: absolute;
+    width: 100%;
+    padding: 20px 11%;
     display: flex;
     justify-content: space-between;
     align-items: center;
