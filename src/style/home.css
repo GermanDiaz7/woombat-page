@@ -1,0 +1,45 @@
+.icons-container {
+    position: sticky;
+    top: 43%;
+}
+
+.icons-container-two {
+    position: sticky;
+    top: 50%;
+}
+
+.icons-container-three {
+    position: sticky;
+    top: 57%;
+}
+
+.div-content {
+    position: absolute;
+    background-color: #26293D;
+    padding: 12px;
+    border-radius: 0px 30px 30px 0px;
+    width: 45px;
+}
+
+.div-content:hover {
+    background-color: #CE6D34;
+    width: 60px;
+}
+
+.icon-component {
+    color: aliceblue;
+}
+
+@media(max-width: 920px) {
+    .icons-container { 
+        display: none;
+    }
+
+    .icons-container-three {
+        display: none;
+    }
+
+    .icons-container-two {
+        display: none;
+    }
+}
