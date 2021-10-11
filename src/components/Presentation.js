@@ -5,6 +5,7 @@ import '../style/presentation.css'
 import { useTranslation } from "react-i18next";
 
 const Presentation = () => {
+
     const {t} = useTranslation("global");
   return (
       <div className='presentation-container' id='presentation'>

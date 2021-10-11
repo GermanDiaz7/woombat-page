@@ -2,14 +2,18 @@ import { useTranslation } from "react-i18next";
 
 import { ReactComponent as Logo } from "../img/woombat_black.svg";
 
+
 //styles
 import "../style/navbar.css";
 
-const Navbar = () => {
+const Navbar = ({bgState}) => {
+
   const { t, i18n } = useTranslation("global");
 
   return (
-    <div className="navbar-container">
+
+    <div className="nb-container">
+    <div className={!bgState ? "navbar-container bg-transparent" : "navbar-container bg-navbar"}>
         <div className="woombatLg">
           <Logo fill="#fff" />
         </div>
@@ -27,6 +31,7 @@ const Navbar = () => {
           <span className='translation-btn' onClick={() => i18n.changeLanguage("en")}>| EN</span>
         </div>
       </div>
+    </div>
     </div>
   );
 };
