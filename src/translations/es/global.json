@@ -100,5 +100,12 @@
         "autorizacion": "Autorizo a Woombat Consulting Group SAS para que los datos personales recolectados sean utilizados a fin de dar trámite a mi solicitud de contacto, enviarme información acerca de sus productos y servicios y para fines publicitarios al hacer uso del botón Enviar. Estos datos pueden ser compartidos con aliados de negocio para efectos de información comercial sobre productos y servicios ofrecidos. Usted tiene derecho a conocer, actualizar y rectificar sus datos y este derecho lo puede ejercer a través de la cuenta de correo protecciondedatos@woombatcg.com. Para mayor información puede consultar nuestra Política de privacidad.",
         "tratamiento": "Al diligenciar este formulario usted estara aceptando la politica de tratamiento de datos personales de worombat consulting group sas, consulte mas aqui",
         "privacidad": "Leer Politica"
+    },
+    "notifiacion": {
+        "formulario":{ 
+            "email": "El correo esta vacio y es invalido, intenta nuevamente!",
+            "texto": "Ningun campo puede ir vacio!",
+            "enviado": "Tus datos han sido enviados, pronto un asesor se pondra en contacto contigo!"
+        }
     }
 }

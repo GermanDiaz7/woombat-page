@@ -40,12 +40,8 @@
 .clients-content-client img {
     width: 500px;
     transition: 1s all ease;
-    filter: grayscale(100%);
-} 
-
-.clients-content-client img:hover {
-    filter: grayscale(0);
-} 
+    
+}
 
 @media screen and (max-width: 1450px) {
     .clients-content {

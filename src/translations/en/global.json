@@ -100,5 +100,12 @@
         "autorizacion": "I authorize Woombat Consulting Group SAS for the personal data collected to be used in order to process my contact request, send me information about its products and services and for advertising purposes by using the Send button. This data can be shared with business partners for the purposes of commercial information on products and services offered. You have the right to know, update and rectify your data and this right can be exercised through the email account protecciondedatos@woombatcg.com. For more information you can consult our Privacy Policy.",
         "tratamiento": "By filling out this form you will be accepting the personal data treatment policy of worombat consulting group sas, see more here",
         "privacidad": "Read Policy"
+    },
+    "notifiacion": {
+        "formulario":{ 
+            "email": "The email is empty and invalid, try again!",
+            "texto": "No field can go empty!",
+            "enviado": "Your data has been sent, soon an advisor will contact you!"
+        }
     }
 }
