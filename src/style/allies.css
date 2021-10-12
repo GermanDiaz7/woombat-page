@@ -27,12 +27,6 @@
 
 .allies-content-allie img {
     width: 400px;
-    filter: grayscale(100%);
-    transition: 1s all ease;
-}
-
-.allies-content-allie img:hover {
-    filter: grayscale(0%);
 }
 
 @media screen and (max-width: 1560px) {

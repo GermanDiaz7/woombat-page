@@ -15,7 +15,7 @@ const FormSection = () => {
     const { t } = useTranslation("global");
     const [encender, setEncender] = useState(false)
 
-    const activator = (e) => {
+    const activator = () => {
         if(encender === true) {
             setEncender(false)
         }else {
@@ -38,7 +38,7 @@ const FormSection = () => {
                     <p>{t("contacto.autorizacion")}</p>
                 </div>
                 <div className={!encender ? "formulario" : "formulario-on"}>
-                    <Form encender={encender}/>
+                    <Form encender={encender} setEncender={setEncender}/>
                 </div>
             </div>
 
