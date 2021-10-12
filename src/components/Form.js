@@ -43,8 +43,35 @@ const Form = ({encender, setEncender}) => {
             axios.post('https://woombat-general.azurewebsites.net/api/send_email?code=gQINMXkaynyL7uwN9PGA8Or72qA1n9YbE7Mb6HWKu/afpAdidkav3w==', {
                     "correo_emisor": "info@woombatcg.com",
                     "correo_receptor": "admin@woombatcg.com",
-                    "asunto": "Mensaje de contacto recibido por Formulario de Contacto WoombatCG",
-                    "cuerpo": `Nombre Completo del emisor: ${name}<br><br>Correo Empresarial: ${email}<br><br>Nombre de la Empresa: ${company}<br><br>Cargo: ${rank}<br><br>Mensaje: ${message}`
+                    "asunto": "Contacto mediante el formulario de la pagina web",
+                    "cuerpo": `
+                            <table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse;">
+                                <tr>
+                                    <td style="padding: 0">
+                                        <img style="padding: 0; display: block" src="https://woombatcg.s3.us-west-1.amazonaws.com/Woombatcg.png" width="100%">
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td style="background-color: #ecf0f1">
+                                        <div style="color: #1b1e35; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
+                                            <h2 style="color: #ce6d34; margin: 0 0 7px">Hola Woombat!</h2>
+                                            <p style="margin: 2px; font-size: 15px">
+                                                Soy <span style="font-weight: bold;">${name}</span>, en nombre de la compañia <span style="font-weight: bold;">${company}</span>, mi cargo es <span style="font-weight: bold;">${rank}</span>,
+                                                el motivo de mi mensaje es el siguiente:
+                                            </p>
+                                            <p style="margin: 10px 2px; font-size: 15px">
+                                                ${message}
+                                            </p>
+                                            <p style="margin: 5px 2px; font-size: 15px">
+                                                Espero tu pronta respuesta, puedes contactarme a <span style="font-weight: bold;"> <a href="mailto:${email}">${email}</a>.</span>
+                                            </p>
+                                            <p style="color: #b3b3b3; font-size: 12px; text-align: center;margin: 30px 0 0">Woombat Consulting Group 2021 &copy;</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        `
                 }
             )
             toast.success(t('notifiacion.formulario.enviado'))
