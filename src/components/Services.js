@@ -160,7 +160,7 @@ const Services = () => {
               <br />
               <p className='text-dark'>{t("servicios.subinformacion")}</p>
               <br />
-              <button className='btn-services'>{t("servicios.boton")}</button>
+              <a className='btn-services' href="#contact">{t("servicios.boton")}</a>
             </div>
           </div>
         </div>
