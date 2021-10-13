@@ -6,7 +6,7 @@ import Form from "./Form";
 
 //styles
 import '../style/form.css'
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import image from "../img/form/form-image.jpeg"
 
 
@@ -23,6 +23,11 @@ const FormSection = () => {
         }
     }
 
+    const verify = useRef()
+    useEffect(() => {
+        setEncender(verify.current.checked)
+    },[])
+
     return ( 
         <Container className='content' id='contact'>
             <div className='form-section left-section'>
@@ -34,11 +39,11 @@ const FormSection = () => {
                 </div>
                 <br />
                 <div className='auth'>
-                    <input onClick={activator} type="checkbox"/>
+                    <input ref={verify} onClick={activator} type="checkbox"/>
                     <p>{t("contacto.autorizacion")}</p>
                 </div>
                 <div className={!encender ? "formulario" : "formulario-on"}>
-                    <Form encender={encender} setEncender={setEncender}/>
+                    <Form encender={encender} setEncender={setEncender} verify={verify}/>
                 </div>
             </div>
 

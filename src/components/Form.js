@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { toast } from 'react-toastify';
 import axios from 'axios';
 
-const Form = ({encender, setEncender}) => {
+const Form = ({encender, setEncender, verify}) => {
 
     const { t } = useTranslation("global");
 
@@ -82,6 +82,7 @@ const Form = ({encender, setEncender}) => {
                 rank: '',
                 message: ''
             })
+            verify.current.checked = !verify.current.checked
             setEncender(!encender)
         } catch (error) {
             console.log(error)
