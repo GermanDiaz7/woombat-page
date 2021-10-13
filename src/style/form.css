@@ -41,7 +41,7 @@
 
 .area-text {
     width: 90%;
-    height: 120px;
+    height: 95px;
     border: 2px solid rgb(245, 245, 245);
 }
 
@@ -86,6 +86,7 @@
     background-color: #26293D;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .btn-active:hover {
