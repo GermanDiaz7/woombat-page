@@ -12,6 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import global_es from './translations/es/global.json';
 import global_en from './translations/en/global.json';
+import { Helmet } from 'react-helmet';
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -35,6 +36,12 @@ WebFont.load({
 
 ReactDOM.render(
   <I18nextProvider i18n={i18next}>
+    <Helmet>
+      <meta name="author" content="Woombat Consulting Group" />
+      <meta name="copyright" content="Woombat Consulting Group" />
+      <meta name="keywords" content="Analitica de Datos, Inteligencia Artificial, Big Data, Consultoria, Desarrollo de Software" />
+      <meta name="description" content="Empresa Colombiana, que presta los servicios de analitica de datos, big data, consultoria y desarrollo de software"/>
+    </Helmet>
     <App />
   </I18nextProvider>
   ,document.getElementById('root'));
