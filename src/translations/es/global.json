@@ -107,5 +107,6 @@
             "texto": "Ningun campo puede ir vacio!",
             "enviado": "Tus datos han sido enviados, pronto un asesor se pondra en contacto contigo!"
         }
-    }
+    },
+    "error": "Navegas como un capitán, pero no tienes permisos para estar aquí. Serás redirigido automáticamente al inicio / Sail like a captain, but you don't have permissions to be here. You will be automatically redirected to the start"
 }

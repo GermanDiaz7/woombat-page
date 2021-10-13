@@ -35,7 +35,7 @@ const FormSection = () => {
                     <h3>{t("politica-datos.titulo")}</h3>
                     <p>{t("politica-datos.autorizacion")}</p>
                     <br/>
-                        <p>{t("contacto.informacion")}<a href="https://instaclone-steven.s3.us-west-1.amazonaws.com/politica-de-privacidad.pdf" target="_blank" rel="noopener noreferrer">{t("politica-datos.privacidad")}</a></p>
+                        <p>{t("contacto.informacion")}<a href={t("informacion.politica.url")} target="_blank" rel="noopener noreferrer">{t("politica-datos.privacidad")}</a></p>
                 </div>
                 <br />
                 <div className='auth'>
