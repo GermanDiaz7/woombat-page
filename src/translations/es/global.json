@@ -69,7 +69,8 @@
             "email": "Correo Empresarial",
             "cargo": "Cargo",
             "texto": "¿En que podemos ayudarte?",
-            "input": "Enviar"
+            "input": "Enviar",
+            "contactenos": "Contactános"
         },
         "datos": {
             "email": "Correo Electronico: info@woombatcg.com",

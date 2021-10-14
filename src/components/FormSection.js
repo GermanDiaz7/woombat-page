@@ -56,7 +56,7 @@ const FormSection = () => {
                     <h2>
                     <FaHandPointLeft />
                     </h2>
-                    <h1>Contactános</h1>
+                    <h1>{t("contacto.formulario.contactenos")}</h1>
                 </div>
             </div>
         </Container>
