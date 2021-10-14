@@ -3,11 +3,12 @@ import { useTranslation } from "react-i18next";
 
 //component
 import Form from "./Form";
+import { FaHandPointLeft } from "react-icons/fa";
 
 //styles
 import '../style/form.css'
 import { useEffect, useRef, useState } from "react";
-import image from "../img/form/form-image.jpeg"
+import {ReactComponent as Logo} from "../img/woombat_black.svg"
 
 
 const FormSection = () => {
@@ -48,7 +49,15 @@ const FormSection = () => {
             </div>
 
             <div className='form-section rigth-section'>
-                <img src={image} alt="About Woombat" />
+                <div className="contactUs-logo">
+                    <Logo fill="#fff"/>
+                </div>
+                <div className="tx-contactUs">
+                    <h2>
+                    <FaHandPointLeft />
+                    </h2>
+                    <h1>Contactános</h1>
+                </div>
             </div>
         </Container>
      );
