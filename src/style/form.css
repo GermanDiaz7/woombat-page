@@ -1,6 +1,5 @@
 .content {
     min-height: 100vh;
-    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,12 +9,30 @@
     width: 50%;
 }
 
-.rigth-section img {
-    width: 100%;
-    border: 6px solid #CE6D34;
-    border-style: dashed ;
+.rigth-section {
     border-radius: 10px;
+    background-color: #ecf0f1;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
+
+.contactUs-logo { 
+    background-image: url(../img/clients/bg.png);
+    padding: 5% 10%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tx-contactUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tx-contactUs h2 {
+    font-size: 40px;
+    margin-right: 20px;
+    color: #26293D;
+}
+
 
 .formulario {
     height: 0px;
