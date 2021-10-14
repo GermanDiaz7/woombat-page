@@ -69,7 +69,8 @@
             "email": "Company Email",
             "cargo": "Role",
             "texto": "How can we help you?",
-            "input": "Send"
+            "input": "Send",
+            "contactenos": "Contact Us"
         },
         "datos": {
             "email": "Email Address: info@woombatcg.com",
