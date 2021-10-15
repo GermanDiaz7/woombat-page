@@ -16,7 +16,7 @@
 }
 
 .contactUs-logo { 
-    background-image: url(../img/clients/bg.png);
+    background-color: #26293D;
     padding: 5% 10%;
     border-radius: 5px 5px 0px 0px;
 }
@@ -120,6 +120,18 @@
 }
 
 @media(max-width: 954px) {
+    .tx-contactUs h2 {
+        display: none;
+    }
+    
+    .inputs {
+        width: 100%;
+    }
+
+    .area-text {
+        width: 100%;
+    }
+
     .content {
         flex-direction: column;
     }

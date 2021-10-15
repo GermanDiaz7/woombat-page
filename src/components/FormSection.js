@@ -50,7 +50,7 @@ const FormSection = () => {
 
             <div className='form-section rigth-section'>
                 <div className="contactUs-logo">
-                    <Logo fill="#fff"/>
+                    <Logo  fill="#fff"/>
                 </div>
                 <div className="tx-contactUs">
                     <h2>
