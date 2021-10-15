@@ -20,6 +20,10 @@ const Services = () => {
   const consulting = () => {
     if(!consultoria) {
       setConsultoria(true)
+      setDescriptiva(false)
+      setAvanzada(false)
+      setArtificial(false)
+      setNube(false)
     }else{
       setConsultoria(false)
     }
@@ -27,7 +31,11 @@ const Services = () => {
 
   const descriptive = () => {
     if(!descriptiva) {
+      setConsultoria(false)
       setDescriptiva(true)
+      setAvanzada(false)
+      setArtificial(false)
+      setNube(false)
     }else {
       setDescriptiva(false)
     }
@@ -35,7 +43,12 @@ const Services = () => {
 
   const advanced = () => {
     if(!avanzada) {
+      setAvanzada(false)
+      setConsultoria(false)
+      setDescriptiva(false)
       setAvanzada(true)
+      setArtificial(false)
+      setNube(false)
     }else {
       setAvanzada(false)
     }
@@ -43,7 +56,11 @@ const Services = () => {
 
   const artificialy = () => {
     if(!artificial) {
+      setConsultoria(false)
+      setDescriptiva(false)
+      setAvanzada(false)
       setArtificial(true)
+      setNube(false)
     }else {
       setArtificial(false)
     }
@@ -51,6 +68,10 @@ const Services = () => {
 
   const cloud = () => {
     if(!nube) {
+      setConsultoria(false)
+      setDescriptiva(false)
+      setAvanzada(false)
+      setArtificial(false)
       setNube(true)
     }else {
       setNube(false)
