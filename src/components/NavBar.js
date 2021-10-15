@@ -15,7 +15,7 @@ const Navbar = ({bgState}) => {
     <div className="nb-container">
     <div className={!bgState ? "navbar-container bg-transparent" : "navbar-container bg-navbar"}>
         <div className="woombatLg">
-          <Logo fill="#fff" />
+          <a href="#presentation" ><Logo height="100" width="150" fill="#fff" /></a>
         </div>
       <div className='navbar-sections'>
         <div className='navbar-sections-navegation'>

@@ -2,7 +2,7 @@
     display: none;
 } 
 
- @media(max-width: 594px) {
+ @media(max-width: 724px) {
     .burger-menu {
         display: block;
         display: flex;

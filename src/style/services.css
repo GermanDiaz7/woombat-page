@@ -46,6 +46,7 @@
     background-color: #26293D;
     color: #fff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-services:hover {

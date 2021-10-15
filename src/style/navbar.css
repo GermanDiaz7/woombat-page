@@ -56,7 +56,25 @@
     margin-bottom: 3px;
 }
 
-@media(max-width: 594px) {
+@media(max-width: 890px) {
+    .navbar-container a {
+        color: white;
+        text-decoration: none;
+        padding-left: 10px;
+    }
+}
+
+@media(max-width: 809px) {
+    .navbar-container a {
+        padding-left: 5px;
+    }
+
+    .navbar-sections-navegation {
+        margin-right: 10px;
+    }
+}
+
+@media(max-width: 724px) {
     .navbar-container {
         display: none;
     }
