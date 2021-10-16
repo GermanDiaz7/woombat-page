@@ -41,6 +41,7 @@ const BurgerMenu = () => {
     }
 
     return ( 
+        <div className="nv-burger-container">
         <div className='burger-menu'>
             <BsList onClick={hanldeSwitch} className= 'icon'/>
             <div className={display ? "on" : "off"}>
@@ -49,14 +50,17 @@ const BurgerMenu = () => {
                         <option>ES</option>
                         <option>EN</option>
                     </select>
-                    <a onClick={desertMenu} href="#presentation">{t("navegacion.inicio")}</a>
-                    <a onClick={desertMenu} href="#serivices">{t("navegacion.servicios")}</a>
-                    <a onClick={desertMenu} href="#allies">{t("navegacion.aliados")}</a>
-                    <a onClick={desertMenu} href="#about">{t("navegacion.nosotros")}</a>
-                    <a onClick={desertMenu} href="#clients">{t("navegacion.clientes")}</a>
-                    <a onClick={desertMenu} href="#contact">{t("navegacion.contacto")}</a>
+                    <div className="ct-links">
+                        <a onClick={desertMenu} href="#presentation">{t("navegacion.inicio")}</a>
+                        <a onClick={desertMenu} href="#serivices">{t("navegacion.servicios")}</a>
+                        <a onClick={desertMenu} href="#allies">{t("navegacion.aliados")}</a>
+                        <a onClick={desertMenu} href="#about">{t("navegacion.nosotros")}</a>
+                        <a onClick={desertMenu} href="#clients">{t("navegacion.clientes")}</a>
+                        <a onClick={desertMenu} href="#contact">{t("navegacion.contacto")}</a>
+                    </div>
                     </div>
             </div>
+        </div>
         </div>
      );
 }
