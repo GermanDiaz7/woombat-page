@@ -10,6 +10,7 @@ import Clients from "../../Clients";
 import AboutUs from "../../AboutUs";
 import FormSection from "../../FormSection";
 import Footer from "../../Footer";
+import BurgerMenu from "../../BurgerMenu"
 
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
@@ -62,6 +63,7 @@ const Home = () => {
             <div className="icons-container-three">
               <a href="https://www.instagram.com/woombatcg/" target="__blank" className="div-content"><FaInstagram className="icon-component" /></a>
             </div>
+            <BurgerMenu />
             <Navbar bgState={bgState}/>
             <div ref={divRef}></div>
             <Header />
